@@ -5,8 +5,9 @@
 .header {
     border-top: 5px solid #58647a;
     border-bottom: 15px solid rgba(255, 255, 255, 0.6);
-    padding: 10px 0 143px;
+    padding: 17px 0 130px;
     background-image: linear-gradient(to top, rgba(165, 198, 255, 0.47), rgba(165, 198, 255, 0.47)), url(../img/chicago-megapolis.png);
+    background-position: center, center;
 }
 
 .header__bg {
@@ -20,10 +21,11 @@
 
 .header .nav {
     display: flex;
+    margin-top: 22px;
 }
 
 .header .nav li:not(:last-child) {
-    margin-right: 28px;
+    margin-right: 30px;
 }
 
 .header .nav a {
@@ -38,10 +40,14 @@
     transform: scale(1.1);
 }
 
+.header .call-btn {
+    margin-left: auto;
+    margin-top: 14px;
+}
+
 .call-btn {
     font-size: 13px;
-    padding: 9px 10px;
-    margin-left: auto;
+    padding: 9px 18px 10px;
 }
 
 .call-btn i {
@@ -49,7 +55,7 @@
 }
 
 .header .offer {
-    margin-top: 102px;
+    margin-top: 98px;
     max-width: 524px;
 }
 
@@ -59,7 +65,7 @@
 }
 
 .header .offer p {
-    margin: 27px 0;
+    margin: 13px 0 27px;
     font-size: 29px;
     font-weight: 100;
 }
@@ -82,7 +88,7 @@
     width: 30px;
     height: 30px;
     font-size: 18px;
-    border: 1px solid;
+    border: 2px solid;
     line-height: 30px;
     text-align: center;
 }
@@ -91,23 +97,42 @@
     color: #3d6ca8;
 }
 
+.offer .item__link_facebook:hover {
+    color: #fff;
+    background-color: #3d6ca8;
+    border: 1px solid #3d6ca8;
+}
+
 .offer .item__link_twitter {
     color: #43c9fd;
+}
+
+.offer .item__link_twitter:hover {
+    color: #fff;
+    background-color: #43c9fd;
+    border: 1px solid #43c9fd;
 }
 
 .offer .item__link_telegram {
     color: #25a3d4;
 }
 
+.offer .item__link_telegram:hover {
+    color: #fff;
+    background-color: #25a3d4;
+    border: 1px solid #25a3d4;
+}
+
 .trust {
     background-color: #f1f1f3;
-    padding: 58px 0 0px;
+    padding: 53px 0 0px;
+    box-shadow: inset 0 -23px 0 0 rgb(255, 255, 255);
 }
 
 .trust__header {
     text-align: center;
     color: #081d42;
-    margin-bottom: 43px;
+    margin-bottom: 42px;
 }
 
 .trust .item > .item__ico {
@@ -123,7 +148,7 @@
 .trust .item > h5 {
     color: #081d42;
     text-align: center;
-    margin: 23px 0 14px;
+    margin: 18px 0 11px;
 }
 
 .trust .item > p {
@@ -133,12 +158,11 @@
 .trust__btn {
     font-size: 16px;
     padding: 13px 39px 11px;
-    margin: 54px auto 0;
-    bottom: -23px;
+    margin: 77px auto 0;
 }
 
 .benefits {
-    padding: 102px 0 81px;
+    padding: 79px 0 95px;
 }
 
 .benefits .item > .item__ico {
@@ -159,7 +183,7 @@
     color: #081d42;
     text-align: center;
     font-weight: 100;
-    margin: 10px 0 14px;
+    margin: 6px 0 12px;
 }
 
 .benefits .item > p {
@@ -168,7 +192,7 @@
 
 .about {
     background-color: #606c81;
-    padding: 40px 0 44px;
+    padding: 38px 0 43px;
     color: #fff;
 }
 
@@ -182,11 +206,11 @@
     display: block;
     width: 100%;
     height: 3px;
-    margin: 15px 0 21px;
+    margin: 10px 0 21px;
     opacity: 0.1;
 }
 
-.about .mission:not(:first-of-type) {
+.about .mission__text:not(:first-child) {
     margin-top: 20px;
 }
 
@@ -199,9 +223,10 @@
     background-color: transparent;
     border: 2px solid #fff;
     color: #fff;
-    margin-top: 40px;
+    margin-top: 37px;
     opacity: 0.69;
     padding: 11px 28px;
+    font-size: 16px;
 }
 
 .about .more-btn:hover {
@@ -213,8 +238,8 @@
     display: flex;
 }
 
-.new:not(:first-child) {
-    margin-top: 18px;
+.new__separator:not(:last-child) {
+    margin-bottom: 18px;
 }
 
 .new__separator {
@@ -245,19 +270,20 @@
 }
 
 .new__time {
+    display: block;
     font-size: 10.42px;
     font-weight: 100;
     opacity: 0.43;
-    margin: 7px 0 0 1px;
+    margin: 12px 0 0 4px;
 }
 
 .navigation {
     background-color: #3a4456;
-    padding: 40px 0 45px;
+    padding: 40px 0 43px;
 }
 
 .navigation .tab__header {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .navigation .tab__header > a {
@@ -266,7 +292,7 @@
 }
 
 .navigation .tab__item:not(:last-child) {
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 .navigation .tab__item > a{
@@ -319,4 +345,8 @@
 .footer .credits a {
     color: #fff;
     text-decoration: underline;
+}
+
+.footer .call-btn {
+    margin-left: auto;
 }

@@ -76,13 +76,13 @@ ul {
     color: #fff;
     background-color: #1cb883;
     border: 1px solid transparent;
-    border-bottom: 6px solid #149d6f;
+    border-bottom: 4px solid #149d6f;
 }
 
 .green-btn:hover {
     background-color: #fff;
     border: 1px solid #149d6f;
-    border-bottom: 6px solid #149d6f;
+    border-bottom: 4px solid #149d6f;
     color: #1cb883;
 }
 
