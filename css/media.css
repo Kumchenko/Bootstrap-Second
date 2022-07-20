@@ -1,0 +1,171 @@
+@media screen and (max-width: 1200px){
+    
+    .header__bg {
+        height: 89px;
+    }
+
+    .call-btn {
+        font-size: 13px;
+        padding: 9px 7px 10px;
+    }
+
+    .logo__img {
+        width: 215px;
+    }
+
+    .header .nav {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 17px;
+    }
+    
+    .header .nav li:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    .header .nav a {
+        display: block;
+        color: #3f4b60;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .header .call-btn {
+        margin-left: auto;
+        margin-top: 7px;
+    }
+
+    .header .offer h1 {
+        font-size: 51px;
+    }
+    
+    .header .offer p {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    
+    .header__menu {
+        margin-top: 13px;
+    }
+    
+    .call-btn {
+        padding: 9px 17px 10px;
+    }
+
+    .about .news-list {
+        margin-left: 30px;
+    }
+
+    .about .new__title {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (max-width: 540px){
+
+    body {
+        font-size: 13px;
+    }
+    
+    h1 {
+        font-size: 29px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 22px;
+    }
+    
+    h4 {
+        font-size: 20px;
+    }
+    
+    h5 {
+        font-size: 18px;
+    }
+    
+    h6 {
+        font-size: 16px;
+    }
+    
+    .header__bg {
+        height: 72px;
+    }
+    
+    .header .logo__img {
+        width: 109px;
+    }
+
+    .header .call-btn {
+        margin: 0;
+        margin: auto;
+    }
+
+    .call-btn {
+        font-size: 11px;
+        padding: 9px 3px 10px;
+    }
+
+    .header__menu {
+        margin-top: 5px;
+    }
+
+    .header .offer h1 {
+        font-size: 31px;
+    }
+    
+    .header .offer p {
+        margin: 13px 0 27px;
+        font-size: 18px;
+    }
+
+    .about .mission__text {
+        font-size: 13px;
+    }
+    
+    .about .news-list {
+        margin-left: 0px;
+    }
+
+    .about .new__title {
+        max-width: initial;
+    }
+
+    .about .new__separator {
+        max-width: initial;
+    }
+
+    .navigation .tab__header {
+        text-align: center;
+    }
+    .navigation .tab__item {
+        text-align: center;
+    }
+
+    .footer .logo__img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .footer .info, .address, .credits {
+        text-align: center;
+    }
+
+    .footer .name {
+        justify-content: center;
+    }
+
+    .footer .call-btn {
+        margin: 0;
+        margin: auto;
+    }
+}

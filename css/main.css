@@ -45,13 +45,9 @@
     margin-top: 14px;
 }
 
-.call-btn {
-    font-size: 13px;
-    padding: 9px 18px 10px;
-}
-
-.call-btn i {
-    color: #46e6b0;
+.header__menu {
+    font-size: 26px;
+    color: #3f4b60;
 }
 
 .header .offer {
@@ -89,7 +85,7 @@
     height: 30px;
     font-size: 18px;
     border: 2px solid;
-    line-height: 30px;
+    line-height: 29px;
     text-align: center;
 }
 
@@ -100,7 +96,7 @@
 .offer .item__link_facebook:hover {
     color: #fff;
     background-color: #3d6ca8;
-    border: 1px solid #3d6ca8;
+    border-color: #3d6ca8;
 }
 
 .offer .item__link_twitter {
@@ -110,7 +106,7 @@
 .offer .item__link_twitter:hover {
     color: #fff;
     background-color: #43c9fd;
-    border: 1px solid #43c9fd;
+    border-color: #43c9fd;
 }
 
 .offer .item__link_telegram {
@@ -120,7 +116,7 @@
 .offer .item__link_telegram:hover {
     color: #fff;
     background-color: #25a3d4;
-    border: 1px solid #25a3d4;
+    border-color: #25a3d4;
 }
 
 .trust {
@@ -191,7 +187,8 @@
 }
 
 .about {
-    background-color: #606c81;
+    background-image: linear-gradient(to top, rgba(96, 108, 129, 0.94), rgba(96, 108, 129, 0.94)), url(../img/mission-news-bg.png);
+    background-position: center, center;
     padding: 38px 0 43px;
     color: #fff;
 }
@@ -234,34 +231,35 @@
     color: #606c81;
 }
 
-.new {
+.about .new {
     display: flex;
 }
 
-.new__separator:not(:last-child) {
+.about .new__separator:not(:last-child) {
     margin-bottom: 18px;
 }
 
-.new__separator {
+.about .new__separator {
     width: 100%;
+    max-width: 270px;
     height: 1px;
     background-color: #fff;
     opacity: 0.1;
     margin-top: 13px;
 }
 
-.new__img {
+.about .new__img {
     width: 55px;
     height: 55px;
     object-fit: cover;
     object-position: center;
 }
 
-.new .info {
+.about .new .info {
     margin-left: 10px;
 }
 
-.new__title {
+.about .new__title {
     font-size: 12.5px;
     font-weight: 700;
     opacity: 0.75;
@@ -269,7 +267,7 @@
     max-width: 180px;
 }
 
-.new__time {
+.about .new__time {
     display: block;
     font-size: 10.42px;
     font-weight: 100;
@@ -309,6 +307,10 @@
     font-weight: 100;
 }
 
+/* .footer .logo {
+    display: block;
+} */
+
 .footer .logo__img {
     margin-top: -35px;
 }
@@ -340,6 +342,10 @@
     border: 1px solid;
     flex-shrink: 0;
     margin-right: 10px;
+}
+
+.footer .name__text {
+    max-width: 150px;
 }
 
 .footer .credits a {

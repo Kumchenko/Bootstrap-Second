@@ -38,7 +38,7 @@ h4 {
 }
 
 h5 {
-	font-size: 23px;
+	font-size: 21px;
 }
 
 h6 {
@@ -84,6 +84,15 @@ ul {
     border: 1px solid #149d6f;
     border-bottom: 4px solid #149d6f;
     color: #1cb883;
+}
+
+.call-btn {
+    font-size: 13px;
+    padding: 9px 18px 10px;
+}
+
+.call-btn i {
+    color: #46e6b0;
 }
 
 .red-color {
