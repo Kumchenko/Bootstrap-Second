@@ -1,3 +1,199 @@
 /* ----------------------------- */
 /* ---------- Header ----------- */
 /* ----------------------------- */
+
+.header {
+    border-top: 5px solid #58647a;
+    border-bottom: 15px solid rgba(255, 255, 255, 0.6);
+    padding: 10px 0 143px;
+    background-image: linear-gradient(to top, rgba(165, 198, 255, 0.47), rgba(165, 198, 255, 0.47)), url(../img/chicago-megapolis.png);
+}
+
+.header__bg {
+    width: 100%;
+    height: 104px;
+    top: 0px;
+    background-color: rgba(191, 194, 200, 0.41);
+    position: absolute;
+    border-bottom: 4px solid rgba(88, 100, 122, 0.21);
+}
+
+.header .nav {
+    display: flex;
+}
+
+.header .nav li:not(:last-child) {
+    margin-right: 28px;
+}
+
+.header .nav a {
+    color: #3f4b60;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.call-btn {
+    font-size: 13px;
+    padding: 9px 10px;
+}
+
+.call-btn i {
+    color: #46e6b0;
+}
+
+.header .offer {
+    margin-top: 102px;
+    max-width: 524px;
+}
+
+.header .offer h1 {
+    color: #081d42;
+    font-size: 58px;
+}
+
+.header .offer p {
+    margin: 27px 0;
+    font-size: 29px;
+    font-weight: 100;
+}
+
+.offer .socials {
+    display: flex;
+    padding: 8px 17px;
+    width: 172px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 3px solid rgba(255, 255, 255, 0.66);
+}
+
+.offer .socials .item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.offer .item__link {
+    display: block;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    border: 1px solid;
+    line-height: 30px;
+    text-align: center;
+}
+
+.offer .item__link_facebook {
+    color: #3d6ca8;
+}
+
+.offer .item__link_twitter {
+    color: #43c9fd;
+}
+
+.offer .item__link_telegram {
+    color: #25a3d4;
+}
+
+.trust {
+    background-color: #f1f1f3;
+    padding: 58px 0 0px;
+}
+
+.trust__header {
+    text-align: center;
+    color: #081d42;
+    margin-bottom: 43px;
+}
+
+.trust .item > .item__ico {
+    width: 119px;
+    height: 119px;
+    border-radius: 50%;
+    background-color: #c8cbdb;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.trust .item > h5 {
+    color: #081d42;
+    text-align: center;
+    margin: 23px 0 14px;
+}
+
+.trust .item > p {
+    text-align: center;
+}
+
+.trust__btn {
+    font-size: 16px;
+    padding: 13px 39px 11px;
+    margin: 54px auto 0;
+    bottom: -23px;
+}
+
+.benefits {
+    padding: 102px 0 81px;
+}
+
+.benefits .item > .item__ico {
+    display: block;
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    background-color: #102e62;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 86px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.benefits .item > h3 {
+    color: #081d42;
+    text-align: center;
+    font-weight: 100;
+    margin: 10px 0 14px;
+}
+
+.benefits .item > p {
+    text-align: center;
+}
+
+.about {
+    background-color: #606c81;
+    padding: 40px 0 44px;
+}
+
+.about h4 {
+    color: #fff;
+    opacity: 0.4;
+}
+
+.about h4::after {
+    background-color: #fff;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin: 15px 0 21px;
+    opacity: 0.1;
+}
+
+.about .mission:not(:first-of-type) {
+    margin-top: 20px;
+}
+
+.about .mission__text {
+    font-size: 15px;
+    color: #fff;
+    opacity: 0.67;
+}
+
+.about .more-btn {
+    background-color: transparent;
+    border: 2px solid;
+    color: #fff;
+    margin-top: 40px;
+    opacity: 0.69;
+    padding: 11px 28px;
+}

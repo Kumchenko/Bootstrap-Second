@@ -5,7 +5,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     position: relative;
 }
 
@@ -57,4 +56,26 @@ input, input:hover, input:focus, input:active,
 button, button:hover, button:focus, button:active
 {
 	outline: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    display: block;
+    border: none;
+    border-radius: 0px;
+    font-family: inherit;
+    font-weight: 700;
+}
+
+.green-btn {
+    color: #fff;
+    background-color: #1cb883;
+    border-bottom: 6px solid #149d6f;
+}
+
+.red-color {
+    color: #b81c31;
 }
