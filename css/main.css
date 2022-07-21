@@ -19,6 +19,14 @@
     border-bottom: 4px solid rgba(88, 100, 122, 0.21);
 }
 
+.header .logo {
+    display: block;
+}
+
+.header .logo__img {
+    width: 100%;
+}
+
 .header .nav {
     display: flex;
     margin-top: 22px;
@@ -306,10 +314,6 @@
     font-size: 12px;
     font-weight: 100;
 }
-
-/* .footer .logo {
-    display: block;
-} */
 
 .footer .logo__img {
     margin-top: -35px;
