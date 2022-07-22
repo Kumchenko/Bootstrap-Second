@@ -442,7 +442,8 @@
 }
 
 .service-subheader_first .img {
-    background-image: linear-gradient(to top, rgba(88, 94, 122, 0.2), rgba(88, 94, 122, 0.2)), url(../img/services-legal.png);
+    background-image: linear-gradient(to top, rgba(88, 94, 122, 0.2), rgba(88, 94, 122, 0.2)), url(../img/services-legal.jpg);
+    background-position: center, center;
     border-radius: 50%;
     border: 7px solid rgba(255, 255, 255, 0.39);
     width: 193px;
@@ -581,4 +582,90 @@
     background-color: #aeaeb9;
     border-radius: 2px;
     margin-right: 18px;
+}
+
+.about-subheader {
+    padding-top: 55px;
+}
+
+.about-subheader h2 {
+    color: #081d42;
+    margin-bottom: 30px;
+}
+
+.about-subheader p {
+    font-size: 15px;
+}
+
+.about-subheader .benefit {
+    display: flex;
+    justify-content: flex-start;
+    padding: 37px 0 34px;
+    border-bottom: 1px solid #e5e6e8;
+}
+
+.about-subheader .benefit_first {
+    margin-top: 32px;
+    border-top: 1px solid #e5e6e8;
+}
+
+.about-subheader .benefit .libra {
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/libra.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 2px solid #081d42;
+    flex-shrink: 0;
+    margin-right: 35px;
+}
+
+.about-subheader .benefit h6 {
+    color: #081d42;
+    margin-bottom: 15px;
+}
+
+.about-photos {
+    padding: 47px 0 53px;
+}
+
+.about-photos h2 {
+    color: #081d42;
+    margin-bottom: 42px;
+}
+
+.about-photos .photo {
+    width: 100%;
+    aspect-ratio : 1 / 1;
+}
+
+.about-photos .photo__img {
+    display: block;
+    width: 100%;
+    aspect-ratio : 1 / 1;
+}
+
+.about-photos .photo__wrapper {
+    background-color: rgba(58, 68, 86, 0.69);
+    border: 7px solid #9a97a7;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    aspect-ratio : 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.about-photos .photo__wrapper:hover {
+    opacity: 1;
+}
+
+.about-photos .photo__link {
+    color: #fff;
+    font-size: 29px;
 }
