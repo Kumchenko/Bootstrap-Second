@@ -1,9 +1,5 @@
 @media screen and (max-width: 1200px){
     
-    .header-long .header__bg {
-        height: 84px;
-    }
-
     .call-btn {
         font-size: 13px;
         padding: 9px 7px 10px;
@@ -15,12 +11,6 @@
 
     .header .nav {
         display: flex;
-        justify-content: space-around;
-        margin-top: 17px;
-    }
-    
-    .header .nav li:not(:last-child) {
-        margin-right: 0px;
     }
 
     .header .nav a {
@@ -28,11 +18,6 @@
         color: #3f4b60;
         font-size: 15px;
         font-weight: 700;
-    }
-
-    .header .call-btn {
-        margin-left: auto;
-        margin-top: 7px;
     }
 
     .header .offer h1 {
@@ -45,11 +30,7 @@
 }
 
 @media screen and (max-width: 992px){
-    
-    .header__menu {
-        margin-top: 12px;
-    }
-    
+
     .call-btn {
         padding: 9px 17px 10px;
     }
@@ -61,13 +42,21 @@
     .about .new__title {
         max-width: 200px;
     }
+
+    .subheader {
+        text-align: center;
+    }
+
+    .subheader h1 {
+        margin-left: 0px;
+    }
+
+    .service-subheader_second .nav h4 {
+        margin-bottom: 24px;
+    }
 }
 
 @media screen and (max-width: 768px){
-    
-    .header-long .header__bg {
-        height: 80px;
-    }
 
     .about .news-list {
         margin-left: 0px;
@@ -100,6 +89,22 @@
         margin: 0;
         margin: auto;
     }
+
+    .subheader .list {
+        flex-direction: column;
+    }
+
+    .subheader .item:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    .service-subheader_first h3 {
+        text-align: center;
+    }
+
+    .service-subheader_first p {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 540px){
@@ -131,10 +136,6 @@
     h6 {
         font-size: 16px;
     }
-    
-    .header-long .header__bg {
-        height: 79px;
-    }
 
     .header .call-btn {
         margin: 0;
@@ -144,10 +145,6 @@
     .call-btn {
         font-size: 11px;
         padding: 9px 3px 10px;
-    }
-
-    .header__menu {
-        margin-top: 5px;
     }
 
     .header .offer h1 {
@@ -174,5 +171,4 @@
     .about .new__separator {
         max-width: initial;
     }
-
 }

@@ -4,14 +4,14 @@
 
 .header {
     border-top: 5px solid #58647a;
-    padding: 17px 0 7px;
+    padding-bottom: 7px;
 }
 
-.header-long {
+.header_long {
     border-top: 5px solid #58647a;
     border-bottom: 15px solid rgba(255, 255, 255, 0.6);
-    padding: 17px 0 130px;
-    background-image: linear-gradient(to top, rgba(165, 198, 255, 0.47), rgba(165, 198, 255, 0.47)), url(../img/chicago-megapolis.png);
+    padding-bottom: 130px;
+    background-image: linear-gradient(to top, rgba(165, 198, 255, 0.47), rgba(165, 198, 255, 0.47)), url(../img/chicago-megapolis.webp);
     background-position: center, center;
 }
 
@@ -19,13 +19,10 @@
     height: 104px;
 }
 
-.header__bg {
-    width: 100%;
-    height: 100%;
-    top: 0px;
+.header > .menu {
     background-color: rgba(191, 194, 200, 0.41);
-    position: absolute;
     border-bottom: 4px solid rgba(88, 100, 122, 0.21);
+    padding: 8px 0;
 }
 
 .header .logo {
@@ -38,7 +35,6 @@
 
 .header .nav {
     display: flex;
-    margin-top: 22px;
 }
 
 .header .nav li:not(:last-child) {
@@ -59,7 +55,6 @@
 
 .header .call-btn {
     margin-left: auto;
-    margin-top: 14px;
 }
 
 .header__menu {
@@ -174,6 +169,10 @@
     margin: 77px auto 0;
 }
 
+.trust__btn:hover {
+    background-color: #fff;
+}
+
 .benefits {
     padding: 79px 0 95px;
 }
@@ -204,7 +203,7 @@
 }
 
 .about {
-    background-image: linear-gradient(to top, rgba(96, 108, 129, 0.94), rgba(96, 108, 129, 0.94)), url(../img/mission-news-bg.png);
+    background-image: linear-gradient(to top, rgba(96, 108, 129, 0.94), rgba(96, 108, 129, 0.94)), url(../img/mission-news-bg.webp);
     background-position: center, center;
     padding: 38px 0 43px;
     color: #fff;
@@ -234,13 +233,13 @@
 }
 
 .about .more-btn {
-    background-color: transparent;
     border: 2px solid #fff;
     color: #fff;
     margin-top: 37px;
     opacity: 0.69;
     padding: 11px 28px;
     font-size: 16px;
+    background-color: transparent;
 }
 
 .about .more-btn:hover {
@@ -328,7 +327,7 @@
     margin-top: -35px;
 }
 
-.footer .info, .address, .name, .credits {
+.footer .info, .footer .address, .footer .name, .footer .credits {
     opacity: 0.52;
 }
 
@@ -368,4 +367,218 @@
 
 .footer .call-btn {
     margin-left: auto;
+}
+
+.footer .call-btn:hover {
+    background-color: transparent;
+}
+
+.subheader {
+    background-color: #fafafb;
+    padding: 64px 0 65px;
+}
+
+.subheader h1 {
+    color: #081d42;
+    margin-left: -2px;
+    margin-bottom: 12px;
+}
+
+.subheader__main {
+    color: #49556b;
+    text-decoration: underline;
+}
+
+.subheader__current {
+    color: #7e838d;
+}
+
+.subheader .list {
+    display: flex;
+}
+
+.subheader .item {
+    color: #a1a6af;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid transparent;
+    padding: 12px 15px;
+}
+
+.subheader .item:hover {
+    color: rgba(184, 28, 49, 0.705);
+}
+
+.subheader .item_active {
+    border: 2px solid #b81c31;
+    color: #b81c31;
+}
+
+.subheader .item_active:hover {
+    color: #b81c31;
+}
+
+.map .info {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: rgba(31, 37, 49, 0.75);
+}
+
+.subheader .item_withDesc {
+    text-align: left;
+}
+
+.subheader .item_withDesc .item__desc {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.service-subheader_first {
+    color: #fff;
+    background-image: linear-gradient(to top, rgba(88, 94, 122, 0.69), rgba(88, 94, 122, 0.69)), url(../img/Local-Business-Insurance-Agents.webp);
+    padding: 42px 0 39px;
+}
+
+.service-subheader_first .img {
+    background-image: linear-gradient(to top, rgba(88, 94, 122, 0.2), rgba(88, 94, 122, 0.2)), url(../img/services-legal.png);
+    border-radius: 50%;
+    border: 7px solid rgba(255, 255, 255, 0.39);
+    width: 193px;
+    height: 193px;
+}
+
+.service-subheader_first h3{
+    font-size: 25px;
+    margin-bottom: 18px;
+    max-width: 300px;
+}
+
+.service-subheader_first p {
+    font-size: 15px;
+}
+
+.service-subheader_first .nav {
+    height: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.48);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18px 25px 20px;
+}
+
+.service-subheader_first .link {
+    color: #fff;
+}
+
+.service-subheader_first .link:hover {
+    text-decoration: underline;
+}
+
+.service-subheader_first .link:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+.service-subheader_first .link::before {
+    content: "→";
+    display: inline-block;
+    margin-right: 7px;
+    text-decoration: none;
+}
+
+.service-subheader_second {
+    padding: 57px 0 54px;
+}
+
+.service-subheader_second .description h2 {
+    color: #081d42;
+    margin-left: -2px;
+    margin-bottom: 25px;
+}
+
+.service-subheader_second .description p {
+    font-size: 15px;
+}
+
+.service-subheader_second .description p:not(:last-child) {
+    margin-bottom: 19px;
+}
+
+.service-subheader_second .description p:last-child {
+    margin-bottom: 35px;
+}
+
+.service-subheader_second .advice {
+    border: 2px solid rgba(88, 95, 107, 0.17);
+    border-radius: 5px;
+    padding: 25px 30px;
+    max-width: 470px;
+    background-image: url(../img/Conference-Call.png);
+    background-repeat: no-repeat;
+    background-position: right 13px bottom 15px;
+}
+
+.service-subheader_second .advice h6 {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.service-subheader_second .advice button {
+    color: #b81c31;
+    font-size: 14px;
+    background-color: transparent;
+    border: 2px solid #b81c31;
+    padding: 11px 17px;
+    display: inline-block;
+}
+
+.service-subheader_second .advice button:hover {
+    color: #fff;
+    background-color: #b81c31;
+}
+
+.service-subheader_second .advice a {
+    color: #585f6b;
+    font-weight: 700;
+    margin-left: 16px;
+}
+
+.service-subheader_second .advice p {
+    font-size: 12px;
+    color: #888d95;
+    max-width: 270px;
+    margin-top: 15px;
+}
+
+.service-subheader_second .nav h4 {
+    color: #58647a;
+    opacity: 0.68;
+    margin-left: 24px;
+    margin-bottom: 42px;
+}
+
+.service-subheader_second .nav a {
+    display: flex;
+    align-items: baseline;
+    padding: 16px 25px 14px;
+    color: #747487;
+    font-weight: 700;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(212, 212, 225, 0.72);
+}
+
+.service-subheader_second .nav a:first-of-type {
+    border-top: 1px solid rgba(212, 212, 225, 0.72);
+}
+
+.service-subheader_second .nav a::before {
+    display: block;
+    content: "";
+    width: 11px;
+    height: 11px;
+    background-color: #aeaeb9;
+    border-radius: 2px;
+    margin-right: 18px;
 }

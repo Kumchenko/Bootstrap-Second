@@ -63,13 +63,16 @@ ul {
     list-style-type: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 .btn {
     display: block;
     border: none;
     border-radius: 0px;
     font-family: inherit;
     font-weight: 700;
-    cursor: pointer;
 }
 
 .green-btn {
@@ -80,7 +83,7 @@ ul {
 }
 
 .green-btn:hover {
-    background-color: #fff;
+    background-color: transparent;
     border: 1px solid #149d6f;
     border-bottom: 4px solid #149d6f;
     color: #1cb883;
