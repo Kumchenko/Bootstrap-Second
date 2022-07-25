@@ -1,8 +1,8 @@
 @media screen and (max-width: 1200px){
     
     .call-btn {
-        font-size: 13px;
-        padding: 9px 7px 10px;
+        font-size: 12px;
+        padding: 9px 12px 10px;
     }
 
     .logo__img {
@@ -31,12 +31,9 @@
 
 @media screen and (max-width: 992px){
 
-    .call-btn {
-        padding: 9px 17px 10px;
-    }
-
     .about .news-list {
         margin-left: 30px;
+        align-items: flex-start;
     }
 
     .about .new__title {
@@ -86,7 +83,6 @@
     }
 
     .footer .call-btn {
-        margin: 0;
         margin: auto;
     }
 
@@ -107,7 +103,7 @@
     }
 }
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 576px){
 
     body {
         font-size: 13px;
@@ -136,17 +132,7 @@
     h6 {
         font-size: 16px;
     }
-
-    .header .call-btn {
-        margin: 0;
-        margin-left: auto;
-    }
-
-    .call-btn {
-        font-size: 11px;
-        padding: 9px 3px 10px;
-    }
-
+    
     .header .offer h1 {
         font-size: 31px;
     }
@@ -154,6 +140,15 @@
     .header .offer p {
         margin: 13px 0 27px;
         font-size: 18px;
+    }
+
+    .header .call-btn {
+        padding: 10px 12px 10px;
+        margin: 0 auto;
+    }
+
+    .header .call-btn span {
+        display: none;
     }
 
     .about .mission__text {
