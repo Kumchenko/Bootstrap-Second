@@ -11,6 +11,7 @@
     <!-- Connecting FontAwesome 5 -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
     <!-- Connecting CSS styles -->
+    <link rel="stylesheet" href="css/preloader.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/spec.css">
     <link rel="stylesheet" href="css/main.css">
@@ -22,6 +23,11 @@
 	<meta property="og:site_name" content="LAB Consulting">
 </head>
 <body>
+    <!-- Preloader: Start -->
+    <div id="page-preloader">
+        <div class="spinner lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+    <!-- Preloader: Finish -->
     <header class="header" id="header">
         <div class="menu">
             <div class="container">
@@ -90,7 +96,7 @@
             </div>
         </div>
     </section>
-    <section class="service-subheader service-subheader_first">
+    <section class="service-subheader service-subheader_first" data-type="background" data-speed="4">
         <div class="container">
             <div class="row gy-5">
                 <div class="d-flex align-items-center justify-content-center col-md-4 col-lg-3">
@@ -110,7 +116,7 @@
                             <a class="nav__link" href="#">Подкатегория услуг первая</a>
                         </li>
                         <li class="nav__item">
-                            <a class="nav__link" href="#">Вторая подкатегория</a>
+                            <a class="nav__link goto" href="#description">Вторая подкатегория</a>
                         </li>
                         <li class="nav__item">
                             <a class="nav__link" href="#">Маленькая услуга</a>
@@ -133,7 +139,7 @@
         <div class="container">
             <div class="row gy-5">
                 <div class="col-lg-8">
-                    <div class="description">
+                    <div class="description" id="description">
                         <h2>
                             Вторая подкатегория
                         </h2>
@@ -360,5 +366,8 @@
             </div>
         </div>
     </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/parallax-bg.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

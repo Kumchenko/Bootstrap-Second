@@ -11,6 +11,7 @@
     <!-- Connecting FontAwesome 5 -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
     <!-- Connecting CSS styles -->
+    <link rel="stylesheet" href="css/preloader.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/spec.css">
     <link rel="stylesheet" href="css/main.css">
@@ -22,6 +23,11 @@
 	<meta property="og:site_name" content="LAB Consulting">
 </head>
 <body>
+    <!-- Preloader: Start -->
+    <div id="page-preloader">
+        <div class="spinner lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+    <!-- Preloader: Finish -->
     <header class="header" id="header">
         <div class="menu">
             <div class="container">
@@ -377,5 +383,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

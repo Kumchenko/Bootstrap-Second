@@ -4,9 +4,9 @@
 
 .header_long {
     border-bottom: 15px solid rgba(255, 255, 255, 0.6);
-    padding-bottom: 130px;
+    padding-bottom: 132px;
     background-image: linear-gradient(to top, rgba(165, 198, 255, 0.47), rgba(165, 198, 255, 0.47)), url(../img/chicago-megapolis.webp);
-    background-position: center, center;
+    background-position-x: center;
 }
 
 .header-long .header__bg {
@@ -17,7 +17,7 @@
     background-color: rgba(191, 194, 200, 0.41);
     border-top: 5px solid #58647a;
     border-bottom: 4px solid rgba(88, 100, 122, 0.21);
-    padding: 8px 0;
+    padding: 10px 0;
 }
 
 .header .logo {
@@ -26,7 +26,6 @@
 
 .header .logo__img {
     width: 100%;
-    max-height: 56.4px;
 }
 
 .header .nav {
@@ -59,7 +58,7 @@
 }
 
 .header .offer {
-    margin-top: 98px;
+    margin-top: 91px;
     max-width: 524px;
 }
 
@@ -69,7 +68,7 @@
 }
 
 .header .offer p {
-    margin: 13px 0 27px;
+    margin: 13px 0 26px;
     font-size: 29px;
     font-weight: 100;
 }
@@ -509,6 +508,7 @@
     color: #fff;
     background-image: linear-gradient(to top, rgba(88, 94, 122, 0.69), rgba(88, 94, 122, 0.69)), url(../img/Local-Business-Insurance-Agents.webp);
     padding: 42px 0 39px;
+    background-size: cover;
 }
 
 .service-subheader_first .img {
