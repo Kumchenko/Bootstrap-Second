@@ -80,6 +80,7 @@ button {
     background-color: #1cb883;
     border: 1px solid transparent;
     border-bottom: 4px solid #149d6f;
+    font-size: 13px;
 }
 
 .green-btn:hover {
@@ -94,7 +95,7 @@ button {
     padding: 9px 17px 10px;
 }
 
-.call-btn i {
+.green-btn i {
     color: #46e6b0;
 }
 
@@ -104,4 +105,38 @@ button {
 
 .ttu {
     text-transform: uppercase;
+}
+
+.call-modal {
+	max-width: 412px;
+	background: #fff;
+    padding: 48px 51px 52px;
+	color: #404048;
+	border-radius: 4px;
+}
+
+.call-modal h5 {
+    text-align: center;
+    color: #081d42;
+    margin-bottom: 14px;
+}
+
+.call-modal p {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.call-modal input {
+    font-family: inherit;
+    border: none;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid rgba(33, 37, 63, 0.62);
+    padding: 15px 1px;
+}
+
+.call-modal .call-final-btn {
+    width: 100%;
+    padding: 12px 17px 14px;
+    margin-top: 29px;
 }

@@ -11,8 +11,12 @@
     <!-- Connecting FontAwesome 5 -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
     <!-- Connecting CSS styles -->
+    <!-- First necessary styles -->
     <link rel="stylesheet" href="css/preloader.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <!-- Styles of plugins -->
+    <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+    <!-- Website styles -->
     <link rel="stylesheet" href="css/spec.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
@@ -383,7 +387,28 @@
             </div>
         </div>
     </footer>
+    <div style="display: none;">
+        <div class="call-modal" id="call-modal">
+            <h5>
+                Заказать обратный звонок
+            </h5>
+            <p>
+                Заполните форму и мы свяжемся с вами как можно скорее. До скорой встречи
+            </p>
+            <form action="#" method="post">
+                <input type="text" name="name" id="name" required placeholder="Имя">
+                <input type="email" name="email" id="email" required placeholder="E-mail">
+                <input type="tel" name="tel" id="tel" required placeholder="Телефон">
+                <button class="btn green-btn call-final-btn" type="submit">
+                    <i class="fa fa-phone"></i>
+                    Заказать звонок
+                </button>
+            </form>
+        </div>
+    </div>
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/preloader.js"></script>
+    <script src="js/jquery.arcticmodal-0.3.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

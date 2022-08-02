@@ -5,12 +5,8 @@
 .header_long {
     border-bottom: 15px solid rgba(255, 255, 255, 0.6);
     padding-bottom: 132px;
-    background-image: linear-gradient(to top, rgba(165, 198, 255, 0.47), rgba(165, 198, 255, 0.47)), url(../img/chicago-megapolis.webp);
     background-position-x: center;
-}
-
-.header-long .header__bg {
-    height: 104px;
+    background-image: linear-gradient(to top, rgba(165, 198, 255, 0.47), rgba(165, 198, 255, 0.47)), url(../img/chicago-megapolis.webp);
 }
 
 .header > .menu {
@@ -52,9 +48,39 @@
     margin-left: auto;
 }
 
-.header__menu {
-    font-size: 26px;
-    color: #3f4b60;
+.header__burger {
+    width: 23px;
+    height: 20px;
+}
+
+.header__burger::before{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #081d42;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.header__burger span{
+    width: 100%;
+    height: 4px;
+    background-color: #081d42;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -2px;
+}
+
+.header__burger::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #081d42;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
 }
 
 .header .offer {
@@ -166,7 +192,7 @@
 }
 
 .trust__btn:hover {
-    background-color: #fff;
+    background-color: #f1f1f3;
 }
 
 .benefits {
@@ -621,9 +647,12 @@
     margin-top: 15px;
 }
 
-.service-subheader_second .nav h4 {
+.service-subheader_second h4 {
     color: #58647a;
     opacity: 0.68;
+}
+
+.service-subheader_second .nav h4 {
     margin-left: 24px;
     margin-bottom: 42px;
 }
@@ -650,6 +679,100 @@
     background-color: #aeaeb9;
     border-radius: 2px;
     margin-right: 18px;
+}
+
+.service-subheader_second .reviews {
+    margin-top: 51px;
+}
+
+.service-subheader_second .reviews h4 {
+    margin-left: 24px;
+    margin-bottom: 35px;
+}
+
+.service-subheader_second .reviews .slider {
+    margin: auto;
+}
+
+.service-subheader_second .reviews .slider .slick-list {
+    margin: 0 45px;
+}
+
+.service-subheader_second .reviews .slider .item {
+    display: flex!important;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-subheader_second .reviews .slider .item__img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    outline: 5px solid #656e8d;
+    outline-offset: -5px;
+    margin-bottom: 18px;
+}
+
+.service-subheader_second .reviews .slider .item__header {
+    color: #747487;
+    font-size: 15px;
+}
+
+.service-subheader_second .reviews .slider .item__p {
+    font-size: 13px;
+    text-align: center;
+    margin: 15px 0 13px;
+}
+
+.service-subheader_second .reviews .slider .fa-facebook-f {
+    color: #2c60a0;
+}
+
+.service-subheader_second .reviews .slider .fa-instagram {
+    color: #d62976;
+}
+
+.service-subheader_second .reviews .slider .slick-prev{
+    left: 30px;
+}
+
+.service-subheader_second .reviews .slider .slick-next{
+    right: 30px;
+}
+
+.service-subheader_second .reviews .slider .slick-arrow {
+    width: 12.5px;
+    height: 25px;
+    color: #404048;
+    font-size: 25px;
+}
+
+.service-subheader_second .reviews .slider .slick-arrow::before {
+    display: none;
+}
+
+.service-subheader_second .reviews .slider .slick-dots {
+    bottom: -36px;
+}
+
+.service-subheader_second .reviews .slider .slick-dots li {
+    width: 11px;
+    height: 11px;
+    background-color: #8b9ab7;
+    opacity: 0.55;
+}
+
+.service-subheader_second .reviews .slider .slick-dots .slick-active {
+    opacity: 1;
+}
+
+.service-subheader_second .reviews .slider .slick-dots button {
+    width: 11px;
+    height: 11px;
+}
+
+.service-subheader_second .reviews .slider .slick-dots button::before {
+    display: none;
 }
 
 .about-subheader {

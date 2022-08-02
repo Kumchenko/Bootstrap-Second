@@ -114,6 +114,10 @@
     .service-subheader_first p {
         text-align: center;
     }
+
+    .call-modal {
+        padding: 25px;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -144,6 +148,10 @@
     
     h6 {
         font-size: 16px;
+    }
+
+    .header .logo__img {
+        max-height: 54px;
     }
     
     .header .offer h1 {
@@ -200,5 +208,21 @@
     .map .info .text {
         margin-left: 0px;
         margin-top: 28px;
+    }
+
+    .service-subheader_second .advice button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .service-subheader_second .advice a {
+        margin: auto;
+        margin-top: 16px;
+        display: block;
+        text-align: center;
+    }
+
+    .call-modal {
+        padding: 17px;
     }
 }
