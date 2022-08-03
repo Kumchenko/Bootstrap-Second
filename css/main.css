@@ -710,6 +710,8 @@
     -moz-border-radius: 50%;
     width: 140px;
     height: 140px;
+    border: 5px solid #656e8d;
+    background-color: #656e8d;
     margin-bottom: 18px;
 }
 
@@ -717,10 +719,8 @@
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    width: 140px;
-    height: 140px;
-    outline: 5px solid #656e8d;
-    outline-offset: -5px;
+    width: 130px;
+    height: 130px;
 }
 
 .service-subheader_second .reviews .slider .item__header {
