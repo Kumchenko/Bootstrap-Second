@@ -704,6 +704,15 @@
     align-items: center;
 }
 
+.service-subheader_second .reviews .slider .item__img_wrapper {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 18px;
+}
+
 .service-subheader_second .reviews .slider .item__img {
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -712,7 +721,6 @@
     height: 140px;
     outline: 5px solid #656e8d;
     outline-offset: -5px;
-    margin-bottom: 18px;
 }
 
 .service-subheader_second .reviews .slider .item__header {
