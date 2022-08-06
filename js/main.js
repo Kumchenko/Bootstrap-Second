@@ -37,6 +37,12 @@ $(function () {
         });
     }
 
+    // Hamburger
+    $(".header__burger").click(function(event){
+        $(".header .menu, .header__burger, .header .nav, .header .nav__col").toggleClass('active');
+        $("body").toggleClass('lock');
+    });
+
 
     // Modal Window "Заказать звонок"
     $(".call-btn").click(function (e) {
