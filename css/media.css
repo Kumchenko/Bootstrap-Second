@@ -74,6 +74,7 @@
     .header__burger {
         width: 30px;
         height: 20px;
+        cursor: pointer;
     }
     
     .header__burger::before{
