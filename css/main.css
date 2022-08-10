@@ -138,6 +138,9 @@
     background-position: center;
     background-repeat: no-repeat;
     margin: 0 auto;
+    display: block;
+    object-fit: scale-down;
+    object-position: center;
 }
 
 .trust .item > h5 {
