@@ -3,8 +3,8 @@ $(function () {
     // Smooth moving to desired section (must use .goto on tag a)
     $("a.goto").click(function (e) {
         e.preventDefault();
-        elementClick = $(this).attr("href");
-        destination = $(elementClick).offset().top;
+        let elementClick = $(this).attr("href");
+        let destination = $(elementClick).offset().top;
         $("body,html").animate({scrollTop: destination }, 800);
     });
 
@@ -14,12 +14,12 @@ $(function () {
 		// Кешируем объект окна
 		    $window = $(window);
 		    $('[data-type="background"]').each(function(){
-		     var $bgobj = $(this); // Назначаем объект
+		     let $bgobj = $(this); // Назначаем объект
 		                    
 		      $(window).scroll(function() {    
 				// Прокручиваем фон со скоростью var.
 				// Значение yPos отрицательное, так как прокручивание осуществляется вверх!
-				var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
+				let yPos = -($window.scrollTop() / $bgobj.data('speed')); 
 				// Смещаем фон
 				$bgobj.css('background-position-y', yPos);
 			}); 
